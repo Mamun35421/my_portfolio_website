@@ -1,5 +1,7 @@
 import React from "react";
 import LeftBanner from "./LeftBanner";
+import RightBanner from "./RightBanner";
+
 
 
 const Banner = () => {
@@ -7,9 +9,10 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="w-full pt-10 py-20 pb-10 flex border-b-[1px] font-titleFont  border-b-black">
+      className="w-full pt-10 pb-20  flex items-center border-b-[1px] font-titleFont  border-b-black">
         <LeftBanner/>
-      <div className="W-1/2"></div>
+        <RightBanner/>
+     
     </section>
   );
 };
