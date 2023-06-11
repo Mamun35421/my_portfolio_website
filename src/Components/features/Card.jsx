@@ -7,9 +7,9 @@ const Card = ({title,des,icon}) => {
     flex items-center bg-gradient-to-r from-bodyColorto-[#202327] group 
     hover:bg-gradient-to-b hover:from-black hover:to-[#1e2024] transition-colors
      duration-100 group'>
-      <div className=' h-72 py-6 overflow-y-hidden'>
-       <div className='flex  h-full flex-col gap-10 translate-y-14 group-hover:translate-y-0 transition-transform duration-500'>
-       <div className='w-10 h-8  flex-col justify-between'>
+      <div className=' h-72   overflow-y-hidden'>
+       <div className='flex  h-full flex-col gap-10 translate-y-16 group-hover:translate-y-0 transition-transform duration-500'>
+       <div className='w-10 h-8 flex  flex-col justify-between'>
     
         {icon ? (
             <span className='text-5xl text-designColor'>{icon}</span>
