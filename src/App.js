@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./Components/navbar/Navbar";
 import Banner from "./Components/banner/Banner";
 import Features from "./Components/features/Features";
+import Projects from "./Components/projects/Projects";
 function App() {
   return (
     <div className="w-full h-auto bg-bodyColor text-lightText">
@@ -9,6 +10,7 @@ function App() {
     <Navbar/>
     <Banner/>
     <Features/>
+    <Projects/>
     </div>
   </div>
   );
