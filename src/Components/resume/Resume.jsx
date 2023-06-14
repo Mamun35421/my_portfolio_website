@@ -29,8 +29,20 @@ const Resume = () => {
         various sector of the economy or areas of culture "
         
         />
-     <ResumeCard/>
-     <ResumeCard/>
+     <ResumeCard
+     title="BSc in Software Engineering"
+     subTitle="Daffodil International University"
+     result="3.45/4"
+     des="The traning provided by universitoes in order to prepare peopple to work in 
+     various sector of the economy or areas of culture "
+     />
+     <ResumeCard
+       title="BSc in Software Engineering"
+       subTitle="Daffodil International University"
+       result="3.45/4"
+       des="The traning provided by universitoes in order to prepare peopple to work in 
+       various sector of the economy or areas of culture "
+     />
     
     </div>
 
