@@ -21,6 +21,7 @@ const ResumeCard = ({title,subTitle,result,des}) => {
             items-center shadow-shadowOne text-sm font-medium'>{result}</p>
            </div>
            </div>
+           <p>{des}</p>
         </div>
     </div>
   )
